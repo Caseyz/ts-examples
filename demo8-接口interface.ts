@@ -32,17 +32,17 @@ get(student)
 
 // 接口在 类 上的使用(通过 implements)
 class Student implements students {
-    name: 'zkx';
-    age: 18;
-    inClass: 1;
-    grade: '优';
+    name = "zkx";
+    age = 18;
+    inClass = 1;
+    grade = "优";
     say() {
         return 'hello !'
     }
 }
 
 // 在 接口interface 上也存在着 继承extends
-interface Person extends students {
+interface Person1 extends students {
     toWork(): number
 }
 
@@ -61,7 +61,7 @@ const student1 = {
 
 
 
-function set(student: Person) {
+function set(student: Person1) {
     console.log(student)
 }
 

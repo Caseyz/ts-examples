@@ -70,17 +70,17 @@ let teacher = new Teacher('zhengkaixuan')
 console.log(teacher._name)
 
 //  5. 抽象类
-abstract class Person {
-    abstract skill()
+abstract class Person5 {
+    abstract skill(): void
 }
 
-class Waiter extends Person {
+class Waiter extends Person5 {
     skill() {
         console.log('我会上菜')
     }
 }
-class TheCook extends Person {
-    skill(){
+class TheCook extends Person5 {
+    skill() {
         console.log('我会做菜')
     }
 }

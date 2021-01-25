@@ -39,19 +39,20 @@ const obj2: objType[] = [
     },
 ]
 
-// 使用类的方式替换类型别名的方式
-class objClass {
-    name: string;
-    age: number
-}
+// // 使用类的方式替换类型别名的方式
 
-const obj3: objClass[] = [
-    {
-        name: 'zz',
-        age: 17
-    },
-    {
-        name: 'dd',
-        age: 19
-    },
-]
+// class objClass {
+//     name: string;
+//     age: number
+// }
+
+// const obj3: objClass[] = [
+//     {
+//         name: 'zz',
+//         age: 17
+//     },
+//     {
+//         name: 'dd',
+//         age: 19
+//     },
+// ]
